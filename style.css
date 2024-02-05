@@ -1,0 +1,174 @@
+* {
+    font-family: system-ui, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.section{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    
+}
+
+.section:hover{
+    color: white;
+    background-color: black;
+   
+}
+
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 22px;
+}
+
+.header-contacts{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-img__me{
+    width: 17vw;
+    height: auto;
+
+    margin-top: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 50%;
+}
+
+.nav-sections {
+    padding-left: 6.5vw;
+    list-style-type: square;
+    margin-bottom: 2vw;
+}
+
+
+/*.github-logo{
+    width: 7vw;
+    height: auto;
+}
+
+.rs-logo{
+    width: 17vw;
+    height: auto; 
+}
+*/
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+.title{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2vw;
+    margin-left: 27vw;
+    font-size: 1.5vw;
+    padding-left: 1.5vw;
+}
+
+.about_text{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+}
+
+.skills_list{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    list-style: inside;
+    margin-bottom: 2vw;
+    list-style-type: square;
+}
+
+#code {
+    display: none;
+}
+
+.code_ex{
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+
+}
+
+.experience_list{
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    list-style-type: none;
+
+}
+
+.experience_list__item{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+
+    display: block;
+    width: 50%;
+}
+
+.experience_list__item:hover{
+    color: white;
+    background-color: black;
+}
+
+.list__item-info { 
+    color: white;
+   
+}
+
+.education-un {
+    list-style-type: none;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.language-list{
+    
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    list-style: inside;
+   
+    list-style-type: square;
+}
+
+.footer{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-year{
+    font-size: 1.2vw;
+}
